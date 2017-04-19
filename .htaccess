@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule !\.(js|gif|jpg|png|css|txt|php|swf|jpeg|ico|xml|htm|html|woff|eot|ttf|swg|svg)$ application/views/index.php [L]

@@ -1,0 +1,39 @@
+@import url('bootstrap.css');
+ html, body, .container-table {
+    background: #272c32;
+    font-family: "Open Sans",sans-serif;
+    height: 98%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+.main-container {
+    color: #8a8b8b;
+}
+.main-container h1 {
+    color: #3bad9e;
+    font-size: 45px;
+}
+.main-container .defaultBtn {
+    background: #3bad9e;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 60px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer {
+    background: #3bad9e;
+    color: #fff;
+    font-size: 14px;
+    padding: 9px 15px;
+    text-align: right;
+}
