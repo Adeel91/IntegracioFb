@@ -7,4 +7,4 @@ php:
   - '7.1'
   - hhvm
   - nightly
-script: phpunit autoload.php
+script: phpunit --configuration phpunit.xml
